@@ -43,8 +43,8 @@ ul.posts li {
 }
 
 .boxed {
-  margin: 30px;
+  margin: 15px;
   background-color: #ffffff;
-  border: 1px solid black;
+  border: 2px solid black;
   opacity: 0.6;
 }
