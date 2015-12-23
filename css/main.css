@@ -67,17 +67,23 @@ img {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 }
-.blur {
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
+
+.brightness {
+    -webkit-filter: brightness(.25);
 }
+
+.blur {
+    -webkit-filter: blur(0px);
+}
+
+img.brightness:hover {
+    -webkit-filter: brightness(0);
+}
+
 img.blur:hover {
-    filter: blur(2);
-    -webkit-filter: blur(2);
-    -moz-filter: blur(2);
+/*    filter: blur(2);*/
+    -webkit-filter: blur(0);
+/*    -moz-filter: blur(2);
     -o-filter: blur(2);
-    -ms-filter: blur(2);
+    -ms-filter: blur(2);*/
 }
