@@ -59,3 +59,17 @@ ul.posts li {
     text-align: center;
     border-radius: 20px;
 }
+
+/*DARKEN*/
+.brightenpic img {
+  -webkit-filter: brightness(-65%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.brightenpic img:hover {
+  -webkit-filter: brightness(0%);
+}
