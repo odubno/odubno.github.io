@@ -49,6 +49,6 @@ ul.posts li {
     border: 1px solid black;
     opacity: 0.9;
     display: inline-block;
-    height: 100%;
-    width: 1px;
+    height: 10px;
+    width: 40px;
 }
