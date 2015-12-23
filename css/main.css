@@ -57,10 +57,5 @@ ul.posts li {
     width: 600px;
     overflow: hidden;
     text-align: center;
-}
-
-.centered {
-    margin: 0 auto;
-    text-align: left;
-    width: 800px;
+    border-radius: 20px;
 }
