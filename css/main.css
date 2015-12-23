@@ -68,16 +68,16 @@ img {
     transition: all 1s ease;
 }
 .blur {
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
 }
 img.blur:hover {
-    filter: blur(0);
-    -webkit-filter: blur(0);
-    -moz-filter: blur(0);
-    -o-filter: blur(0);
-    -ms-filter: blur(0);
+    filter: blur(2);
+    -webkit-filter: blur(2);
+    -moz-filter: blur(2);
+    -o-filter: blur(2);
+    -ms-filter: blur(2);
 }
