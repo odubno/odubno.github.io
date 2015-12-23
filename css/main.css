@@ -76,14 +76,10 @@ img {
     -webkit-filter: blur(0px);
 }
 
-img.brightness:hover {
-    -webkit-filter: brightness(0);
+.opacity {
+    -webkit-filter: opacity(50%);
 }
 
-img.blur:hover {
-/*    filter: blur(2);*/
-    -webkit-filter: blur(0);
-/*    -moz-filter: blur(2);
-    -o-filter: blur(2);
-    -ms-filter: blur(2);*/
+img.opacity:hover {
+    -webkit-filter: opacity(0);
 }
