@@ -53,3 +53,9 @@ ul.posts li {
     overflow: hidden;
     text-align: center;
 }
+
+.centered {
+    margin: 0 auto;
+    text-align: left;
+    width: 800px;
+}
