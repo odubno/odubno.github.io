@@ -182,7 +182,7 @@ div[id^=image]:target .expand {
     display: none;
 }
  
-div#image-1:target, div#image-2:target, div#image-3:target { left: 200px; }
+div#image-1:target, div#image-2:target, div#image-3:target { left: 100; }
  
 div#image-1 { left: 0; }
 div#image-2 { left: 290px; }
