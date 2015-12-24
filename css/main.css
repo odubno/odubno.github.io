@@ -89,15 +89,19 @@ img.opacity:hover {
 /* Displaying images in columns */
 
 .column{
-width:100%;
-min-height:200px;
-margin: 15px;
+    width:300px;
+    height:200px;
+    min-height:350px;    
+    padding:5px;    
+    margin:5px;
 }
 
 .image-container{
-width: 25%;
-height: 200px;
-float: left;
+    width: 25%;
+    height: 200px;
+    margin:10px;
+    padding:10px;
+    float: left;
 }
 
 .image-container img{
