@@ -92,6 +92,7 @@ img.opacity:hover {
     width:100%;
     min-height:200px;
     margin: 10px;
+    display:inline
 }
 
 .image-container{
@@ -100,6 +101,7 @@ img.opacity:hover {
     float: left;
     padding:2px;    
     margin:2px;
+    display:inline
 }
 
 .image-container img{
