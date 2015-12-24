@@ -149,3 +149,57 @@ ul.rig.columns-4 li {
         margin: 0 0 20px;
     }
 }
+
+/* For increasing the size of the image */
+.image-lightbox span {
+    display: none;
+}
+ 
+.image-lightbox .expand {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 4000;
+    background: rgba(0,0,0,0); /* Fixes an IE bug */
+    left: 0;
+}
+ 
+.image-lightbox .close {
+    position: absolute;
+    width: 20px; height: 20px;
+    right: 20px; top: 20px;
+}
+ 
+.image-lightbox .close a {
+    height: auto; width: auto;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    background: #22272c;
+    box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 30px rgba(255,255,255,0.4);
+    border-radius: 5px;
+    font-weight: bold;
+    float: right;
+}
+ 
+.image-lightbox .close a:hover {
+    box-shadow: inset 0px -24px 20px -15px rgba(255, 255, 255, 0.01), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 20px rgba(255,255,255,0.4);
+}
+
+div[id^=image]:target {
+    width: 450px;
+    height: 300px;
+    z-index: 5000;
+    top: 50px;
+    left: 200px;
+}
+div[id^=image]:target .close {
+    display: block;
+}
+ 
+div[id^=image]:target .expand {
+    display: none;
+}
+ 
+div#image-1:target, div#image-2:target, div#image-3:target { left: 200px; }
