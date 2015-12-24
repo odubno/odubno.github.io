@@ -169,8 +169,8 @@ img.opacity:hover {
 div[id^=image]:target {
     width: 1000px;
     height: 800px;
-    z-index: 5000;
-    top: 100px;
+    z-index: 500;
+    top: -50px;
     left: -50px;
 }
 div[id^=image]:target .close {
@@ -181,9 +181,9 @@ div[id^=image]:target .expand {
     display: none;
 }
  
-div#image-1:target { left: 50px; top:100px; }
-div#image-2:target { left: 40px; top:100px; }
-div#image-3:target { left: 30px; top:100px; }
+div#image-1:target { left: 0px; top:100px; }
+div#image-2:target { left: 0px; top:100px; }
+div#image-3:target { left: 0px; top:100px; }
  
 div#image-1 { left: 0; }
 div#image-2 { left: 290px; }
