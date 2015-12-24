@@ -105,4 +105,5 @@ img.opacity:hover {
 .image-container img{
     max-height: 200px;
     width: 100%;
+    display: inline;
 }
