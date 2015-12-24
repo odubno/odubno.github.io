@@ -184,8 +184,13 @@ div[id^=image]:target .expand {
 div#image-1:target { left: -100px; top:-100px; }
 div#image-2:target { left: -100px; top:-100px; }
 div#image-3:target { left: -100px; top:-100px; }
+div#image-4:target { left: -100px; top:-100px; }
+div#image-5:target { left: -100px; top:-100px; }
+div#image-6:target { left: -100px; top:-100px; }
  
 div#image-1 { left: 0; }
 div#image-2 { left: 290px; }
 div#image-3 { left: 580px; }
-div#image-4 { left: 700px; }
+div#image-4 { left: 0; bottom: 100px; }
+div#image-5 { left: 290px; bottom: 100px;}
+div#image-6 { left: 580px; bottom: 100px;}
