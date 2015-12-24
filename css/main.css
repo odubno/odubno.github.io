@@ -170,7 +170,7 @@ div[id^=image]:target {
     width: 1000px;
     height: 800px;
     z-index: 5000;
-    top: 150px;
+    top: 200px;
     left: 100px;
 }
 div[id^=image]:target .close {
@@ -182,8 +182,8 @@ div[id^=image]:target .expand {
 }
  
 div#image-1:target { left: 100; }
-div#image-2:target { left: 150; }
-div#image-3:target { left: 200; }
+div#image-2:target { left: 75; }
+div#image-3:target { left: 50; }
  
 div#image-1 { left: 0; }
 div#image-2 { left: 290px; }
