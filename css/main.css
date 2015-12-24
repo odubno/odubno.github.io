@@ -167,7 +167,7 @@ img.opacity:hover {
 }
  
 div[id^=image]:target {
-    width: 800px;
+    width: 900px;
     height: 600px;
     z-index: 5000;
     top: -100px;
