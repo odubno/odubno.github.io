@@ -167,10 +167,10 @@ img.opacity:hover {
 }
  
 div[id^=image]:target {
-    width: 800px;
-    height: 500px;
+    width: 1000px;
+    height: 800px;
     z-index: 5000;
-    top: 77px;
+    top: 150px;
     left: 100px;
 }
 div[id^=image]:target .close {
