@@ -36,8 +36,6 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    bottom: 0;
-    position: absolute;
 }
 
 ul.posts { 
@@ -94,7 +92,6 @@ img.opacity:hover {
     width:100%;
     min-height:200px;
     margin: 10px;
-    position: relative;
 }
 
 .image-container{
