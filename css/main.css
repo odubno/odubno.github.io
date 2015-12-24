@@ -105,8 +105,8 @@ img.opacity:hover {
  
 .holder {
     /* The width and height, you can change these */
-    width: 250px;
-    height: 166px;
+    width: 300px;
+    height: 200px;
     /* Float left, so everything aligns right */
     float: left;
     margin: 0 20px 0 0;
