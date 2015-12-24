@@ -92,6 +92,7 @@ img.opacity:hover {
     width:100%;
     min-height:200px;
     margin: 10px;
+    position: relative;
 }
 
 .image-container{
@@ -106,4 +107,5 @@ img.opacity:hover {
     max-height: 200px;
     width: 100%;
     display: inline;
+    position: relative;
 }
