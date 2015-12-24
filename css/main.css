@@ -60,6 +60,8 @@ ul.posts li {
     border-radius: 20px;
 }
 
+
+ /* Creating an opacity hover effect for projects */
 img {
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -82,4 +84,24 @@ img {
 
 img.opacity:hover {
     -webkit-filter: opacity(25%);
+}
+
+/* Displaying images in columns */
+
+.column{
+width:100%;
+min-height:200px;
+background:red;
+border-bottom:1px solid blue;
+}
+
+.image-container{
+width: 25%;
+height: 200px;
+float: left;
+}
+
+.image-container img{
+max-height: 200px;
+width: 100%;
 }
