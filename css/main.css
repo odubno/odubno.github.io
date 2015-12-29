@@ -206,3 +206,12 @@ div#image-9 { left: 580px; top: 405px;}
 div#image-10 { left: 0; top: 605px; }
 div#image-11 { left: 290px; top: 605px;}
 div#image-12 { left: 580px; top: 605px;}
+
+
+
+/* hovering over anchor text */
+a:hover span {display: block;
+   position: absolute; top: 200px; left: 0; width: 125px;
+   padding: 5px; margin: 10px; z-index: 100;
+   color: #AAA; background: black;
+   font: 10px Verdana, sans-serif; text-align: center;}
