@@ -159,7 +159,7 @@ img.opacity:hover {
     box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 30px rgba(255,255,255,0.4);
     border-radius: 5px;
     font-weight: bold;
-    float: right;
+    /*float: right;*/
 }
  
 .close a:hover {
