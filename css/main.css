@@ -214,8 +214,8 @@ a span {display: none;}
 a:hover span {
     display: block;
     position: absolute; 
-    top: 100px; 
-    left: 0px; 
+    top: 200px; 
+    left: 50px; 
     width: 125px;
     padding: 5px; 
     margin: 10px; 
