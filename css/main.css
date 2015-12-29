@@ -212,7 +212,7 @@ div#image-12 { left: 580px; top: 605px;}
 /* hovering over anchor text */
 a span {display: none;}
 a:hover span {display: block;
-   position: relative; top: 250px; left: 350px; width: 125px;
+   position: absolute; top: 250px; left: 350px; width: 125px;
    padding: 5px; margin: 10px; z-index: 100;
    color: #fffdfd; background: #D3D3D3;
    font: 14px Verdana, sans-serif; text-align: center;border-radius: 10px;}
