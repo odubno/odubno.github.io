@@ -226,3 +226,28 @@ a:hover span {
     text-align: center;
     border-radius: 10px;
 }
+
+/* Table */
+table {
+    *border-collapse: collapse; /* IE7 and lower */
+    border-spacing: 0; 
+}
+th:first-child {
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child{
+    border-radius: 6px 6px 0 0;
+}
+.bordered tr:hover {
+  background: #fbf8e9;
+  transition: all 0.1s ease-in-out;     
+}
+.highlight {
+  background: #fbf8e9;
+  transition: all 0.1s ease-in-out;     
+}
