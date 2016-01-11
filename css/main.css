@@ -225,10 +225,6 @@ body {
 
 table {
   border: 1px dotted black;
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
-}
-
-form_caja {
-  border-radius: 20px;
 }
