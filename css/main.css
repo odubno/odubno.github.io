@@ -222,3 +222,6 @@ th {
 body {
   padding: 1rem;
 }
+table {
+    border-radius: 20px;
+}
