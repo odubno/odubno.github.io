@@ -210,18 +210,25 @@ div#image-12 { left: 580px; top: 605px;}
 
 
 /* hovering over anchor text */
-td, th {
+th,
+td {
   width: 4rem;
   height: 2rem;
   border: 1px solid #ccc;
   text-align: center;
+  padding: 3px;
 }
-th {
-  border-color:;
-}
+
 body {
-  padding: 1rem;
+  padding: 2rem;
 }
+
 table {
-    border-radius: 20px;
+  border: 1px dotted black;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+form_caja {
+  border-radius: 20px;
 }
